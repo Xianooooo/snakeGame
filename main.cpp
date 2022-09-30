@@ -77,6 +77,8 @@ int main()
             game_over(gameWindow, snake->showScore());
             break;
         }
+        if (snake->changeDirection() == 'x')
+            break;
         if (is_window_size_change(yMax, xMax))
         {
             window_resize(gameWindow, &yMax, &xMax);
@@ -96,6 +98,7 @@ int main()
         }
     }
 
+    
     // --
     // NCURSES END
     endwin();
