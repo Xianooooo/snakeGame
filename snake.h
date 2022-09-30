@@ -43,7 +43,7 @@ class Snake{
                     SNAKE_LEFT = KEY_LEFT, SNAKE_RIGHT = KEY_RIGHT };
     std::list<SnakeBody> body;
     WINDOW *gameWindow;
-    int gameWindowWidth, gameWindowLength, currentDirection;
+    int gameWindowWidth, gameWindowLength, currentDirection, score;
 
     //helper
     void gameWindowSizeUpdate();
@@ -59,6 +59,7 @@ class Snake{
         this->gameWindow = gameWindow;
         gameWindowSizeUpdate();
         this->currentDirection = SNAKE_RIGHT;
+        score = 0;
     }
     int changeDirection();
     void updateSnakePos();
@@ -66,6 +67,7 @@ class Snake{
     bool is_death()const;
     bool eatFruit(Fruit *fruit);
     void digest();
+    int showScore()const{ return score; }
     friend class Fruit;
 };
 #endif

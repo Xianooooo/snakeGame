@@ -110,6 +110,7 @@ bool Snake::is_death()const
 void Snake::digest()
 {
     this->body.begin()->bodySymbol = '#';
+    score++;
 }
 bool Snake::eatFruit(Fruit *fruit)
 {
