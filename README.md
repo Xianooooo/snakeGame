@@ -6,11 +6,11 @@ build using make commend
 
 execute: ./game
 
-snake head symbol: *
-snake body shape: *oooooo
-snake body shape: *oo#ooo
-#: fruit in the stomach
-fruit: @
+snake head symbol: * <br />
+snake body shape: *oooooo <br />
+snake body shape: *oo#ooo <br />
+#: fruit in the stomach <br />
+fruit: @ <br />
 
 Visual representation:
 
