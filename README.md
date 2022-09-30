@@ -13,15 +13,14 @@ snake body shape: *oo#ooo <br />
 fruit: @ <br />
 
 Visual representation:
-
-<!-- ![MY Image](images/image2.png) -->
-<img src="images/images2.png" width="50" height="50" />
+<br />
+<img src="images/image2.png" width="300" height="300" />
+<br />
 Current game window size changable
-
-<!-- ![MY Image](images/image3.png =50x50) -->
-<img src="images/images2.png" width="50" height="50" />
+<br />
+<br />
+<img src="images/image3.png" width="300" height="300" />
+<br />
 Show score after death, press 'x' the quit the program
-
-<!-- ![MY Image](images/image1.png =50x50) -->
-<img src="images/images2.png" width="50" height="50" />
-
+<br />
+<img src="images/image1.png" width="300" height="300" />
