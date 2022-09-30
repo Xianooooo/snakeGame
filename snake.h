@@ -1,5 +1,5 @@
-#ifndef _SNAKE_
-#define _SNAKE_
+#ifndef _SNAKE_H_
+#define _SNAKE_H_
 
 #include <list>
 #include <iterator>

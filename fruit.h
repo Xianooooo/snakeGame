@@ -1,5 +1,5 @@
-#ifndef _FRUIT_H
-#define _FRUIT_H
+#ifndef _FRUIT_H_
+#define _FRUIT_H_
 
 #include <random>
 #include <ncurses.h>
