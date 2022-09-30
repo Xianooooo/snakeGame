@@ -14,13 +14,14 @@ fruit: @ <br />
 
 Visual representation:
 
-![MY Image](images/image2.png =50x50)
-
+<!-- ![MY Image](images/image2.png) -->
+<img src="images/images2.png" width="50" height="50" />
 Current game window size changable
 
-![MY Image](images/image3.png =50x50)
-
+<!-- ![MY Image](images/image3.png =50x50) -->
+<img src="images/images2.png" width="50" height="50" />
 Show score after death, press 'x' the quit the program
 
-![MY Image](images/image1.png =50x50)
+<!-- ![MY Image](images/image1.png =50x50) -->
+<img src="images/images2.png" width="50" height="50" />
 
