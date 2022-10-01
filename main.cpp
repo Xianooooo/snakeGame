@@ -1,5 +1,4 @@
 #include "game.h"
-#include "obj.h"
 
 //driver
 int main()
