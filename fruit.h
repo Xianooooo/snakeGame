@@ -14,9 +14,9 @@ class Fruit : public Obj
     }
     // add fruit count
     void Add(){ count++; }
-    // minus fruit count 
+    // minus fruit count;
+    void Minus(){ count--; }
     void setCount(int c) { count = c; } 
-    void Minus(){ count--; } 
     int getCount()const{ return count; }
     void UpdateFruitPos(int _y, int _x){ setYX( _y, _x); }
     private:
