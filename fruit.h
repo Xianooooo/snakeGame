@@ -1,36 +1,26 @@
 #ifndef _FRUIT_H_
 #define _FRUIT_H_
 
+#include "obj.h"
 #include <random>
-#include <ncurses.h>
 
-class Snake;
-
-class Fruit
+class Fruit : public Obj
 {
     public:
-    Fruit(WINDOW *gameWindow = NULL, const Snake *const snake = NULL)
+    Fruit(int _y = 0, int _x = 0
+    , int _width = 0, int _length = 0) : Obj(_y, _x)
     {
-        this->gameWindow = gameWindow;
-        this->gameWindowSizeUpdate();
-        this->snake = snake;
-        this->getPos();
-        count = 0;
+       count = 0; 
     }
-    void draw();
-    int getY()const{ return y; }
-    int getX()const{ return x; }
+    // add fruit count
+    void Add(){ count++; }
+    // minus fruit count 
+    void setCount(int c) { count = c; } 
+    void Minus(){ count--; } 
     int getCount()const{ return count; }
-    void kill(){ count--; }
-    
+    void UpdateFruitPos(int _y, int _x){ setYX( _y, _x); }
     private:
-    WINDOW *gameWindow;
-    const Snake *snake;
-    int gameWindowWidth, gameWindowLength, x, y, count;
-    
-    void gameWindowSizeUpdate();
-    void getPos();
+    int count;
 };
-
 
 #endif

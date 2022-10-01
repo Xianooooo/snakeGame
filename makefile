@@ -1,7 +1,7 @@
 CC = g++
 # DEBUGGER = -g -fsanitize=address
 FLAG = -lncurses -std=c++11 $(DEBUGGER) -I .
-SRCS = main.cpp snake.cpp fruit.cpp
+SRCS = main.cpp game.cpp snake.cpp 
 MAIN = game
 
 all : $(MAIN)
