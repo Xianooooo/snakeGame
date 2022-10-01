@@ -23,4 +23,6 @@ Current game window size changable
 <br />
 Show score after death, press 'x' the quit the program
 <br />
+Show score after death, press 'g' start a new game
+<br />
 <img src="images/image1.png" width="300" height="300" />
