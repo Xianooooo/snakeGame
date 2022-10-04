@@ -71,7 +71,7 @@ void Game::drawSnake(Snake *snake)
 {
     auto snakeBody = snake->getSnakeBody();
     
-    for (auto it = snakeBody.begin(); it != snakeBody.end(); it++)
+    for (auto it = snakeBody.crbegin(); it != snakeBody.crend(); it++)
         draw(it->getY(), it->getX(), it->getBodyShape());
 }
 
