@@ -148,6 +148,6 @@ void Game::gameStart()
     gameOver();
 }
 
-Game::~Game(){}
+Game::~Game(){delwin(board);}
 
 
